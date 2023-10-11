@@ -1,0 +1,33 @@
+.heroimagetop{
+    .heroimage{
+        height: 250px;
+        .toursbackground{
+            background-image: linear-gradient(to right, rgba(0, 0, 0,.50),rgba(0, 0, 0,.50)), url(../images/toursbackground.png);
+            width: 80%;
+            height: 200px;
+            margin: 0 auto;
+            margin-top: 3%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            .callout{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                .tourstitle{
+                    font-size: 60px;
+                    color: white;
+                    font-family: Open-Sans-Italic;
+                    text-align: center;
+                    margin-top: 65px;
+                    @font-face {
+                        font-family: Open-Sans-Italic;
+                        src: url(../fonts/Open_Sans/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+                    }
+                }
+            }
+        }
+    }
+}

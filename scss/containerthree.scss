@@ -1,0 +1,77 @@
+.containers{
+    
+    .containerthree{
+        width: 100%;
+        max-width: 800px;
+        display: flex;
+        .leftone{
+            width: 80px;
+         .box{
+            padding: 13px 20px;
+            background-color: #79ADDC;
+            flex-direction: column;
+            margin-top: 25%;
+            .text1{
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-weight: bold;
+                font-size: 22px;
+                color: white;
+            }
+    
+            .text2{
+                font-weight: lighter;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: 16px;
+                color: white;
+            }
+         }
+        }
+    
+        .rightone{
+           width: 100%;
+            .blogimage{
+                background-image: url(../images/blogimage.png);
+                width: 108%;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                height: 259px;
+                margin-left: 5%;
+                margin-top: 1.8%;
+            }
+    
+            .blogtitleone{
+                font-size: 15px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                width: 100%;
+                margin-left: 5%;
+                margin-top: 5%;
+            }
+    
+            .blogparaone{
+                font-size: 13px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                width: 46%;
+                margin-left: 2%;
+                margin-top: 2%;
+                color: #79ADDC;
+                padding: 20px;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .containerthree{
+        max-width: 800px;
+        .leftone{
+            width: 8%;
+        }
+        .rightone{
+            .blogimage{
+                max-width: 76%;
+            }
+        }
+    }
+  }

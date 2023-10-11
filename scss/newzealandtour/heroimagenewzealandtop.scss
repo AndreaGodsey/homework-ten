@@ -1,0 +1,46 @@
+.heroimagenewzealandtop{
+    .heroimagenewzealand{
+        height: 500px;
+        .newzealandtoursbackground{
+            background-image: url(../images/newzealandtop.png);
+            width: 80%;
+            height: 413px;
+            margin: 0 auto;
+            margin-top: 3%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            .callout2{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                .tourstitle2{
+                    font-size: 60px;
+                    color: white;
+                    font-family: Open-Sans-Italic;
+                    width: 100%;
+                    padding: 5% 2%;
+
+                    @font-face {
+                        font-family: Open-Sans-Italic;
+                        src: url(../fonts/Inclusive_Sans/Open_Sans/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+                    }
+              }
+            
+            
+            .tourtitlebottom{
+                color: white;
+                font-family: Open-Sans-Variable;
+                font-size: 20px;
+                margin-top: 18%;
+                margin-left: 55%;
+                @font-face {
+                    font-family: Open-Sans-Variable;
+                    src: url(../fonts/Inclusive_Sans/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+                }
+            }}
+        }
+    }
+}

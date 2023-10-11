@@ -1,0 +1,52 @@
+.japangroup{
+    width: 90%;
+    // background-color: aquamarine;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .japanphotos{
+        // background-color: aqua;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        .firstjapanphoto{
+            background-image: url(../images/firstjapanphoto.png);
+            width: 298px;
+            height: 347px;
+        }
+    }
+
+     .japanphotos2{
+        .secondjapanphoto{
+            background-image: url(../images/secondjapanphoto.png);
+            width: 298px;
+            height: 347px;
+        }
+    }
+
+    .japanphotos3{
+         .thirdjapanphoto{
+             background-image: url(../images/thirdjapanphoto.png);
+            width: 298px;
+            height: 347px;
+        }
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .japangroup{
+    width: 527px;
+    flex-direction: column;
+    
+    .firstjapanphoto{
+        margin-bottom: 20px;
+    }
+
+    .secondjapanphoto{
+        margin-bottom: 20px;
+    }
+   }
+ }
+

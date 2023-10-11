@@ -1,0 +1,52 @@
+.uaegroup{
+    width: 90%;
+    // background-color: aquamarine;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .uaephotos{
+        // background-color: aqua;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        .firstuaephoto{
+            background-image: url(../images/firstuaephoto.png);
+            width: 298px;
+            height: 347px;
+        }
+    }
+
+     .uaephotos2{
+        .seconduaephoto{
+            background-image: url(../images/seconduaephoto.png);
+            width: 298px;
+            height: 347px;
+        }
+    }
+
+    .uaephotos3{
+         .thirduaephoto{
+             background-image: url(../images/thirduaephoto.png);
+            width: 298px;
+            height: 347px;
+        }
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .uaegroup{
+    width: 527px;
+    flex-direction: column;
+    
+    .firstuaephoto{
+        margin-bottom: 20px;
+    }
+
+    .seconduaephoto{
+        margin-bottom: 20px;
+    }
+   }
+ }
+

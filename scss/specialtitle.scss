@@ -1,0 +1,19 @@
+.specialtitle{
+    font-family: Open-Sans-Regular;
+    font-size: 30px;
+    margin-left: 15%;
+    width: 50%;
+    margin-top: 64px;
+
+    @font-face {
+        font-family: Open-Sans-Regular;
+        src: url(.././fonts/Inclusive_Sans/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+    }
+
+    .underlines{
+        font-size: 30px;
+        font-family: Open-Sans-Regular;
+        text-decoration: underline;
+        width: 100%;
+    }
+}

@@ -1,0 +1,52 @@
+.francegroup{
+    width: 90%;
+    // background-color: aquamarine;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .francephotos{
+        // background-color: aqua;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        .firstfrancephoto{
+            background-image: url(../images/firstfrancephoto.png);
+            width: 298px;
+            height: 347px;
+        }
+    }
+
+     .francephotos2{
+        .secondfrancephoto{
+            background-image: url(../images/secondfrancephoto.png);
+            width: 298px;
+            height: 347px;
+        }
+    }
+
+    .francephotos3{
+         .thirdfrancephoto{
+             background-image: url(../images/thirdfrancephoto.png);
+            width: 298px;
+            height: 347px;
+        }
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .francegroup{
+    width: 527px;
+    flex-direction: column;
+    
+    .firstfrancephoto{
+        margin-bottom: 20px;
+    }
+
+    .secondfrancephoto{
+        margin-bottom: 20px;
+    }
+   }
+ }
+

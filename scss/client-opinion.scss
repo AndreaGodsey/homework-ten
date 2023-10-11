@@ -1,0 +1,59 @@
+.clients{
+    min-height: 100%;
+    padding: 20px;
+    .client-opinion{
+        width: 100%;
+        max-width: 800px;
+        margin-left: 15%;
+        display: flex;
+        // align-items: center;
+        margin-right: 19%;
+        .client-image-left{
+            .GirlClient{
+                background-image: url(../images/GirlClient.jpg);
+                width: 260px ;
+                height: 150px;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+        }
+    
+        .client-comment-right{
+            width:50%;
+            font-size: 16px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-style: italic;
+            padding-left: 20px;
+            .name1{
+                    margin-top: 10px;
+                    margin-left: 70%;
+                    width: 50%;
+                    font-size: 20px;
+                    font-family: Open-Sans;
+                    color: #79ADDC;}
+                    text-decoration: none;
+        
+                    @font-face {
+                        font-family: Open-Sans;
+                        src: url(../fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+                       
+                }
+            }
+        }
+    
+}
+
+
+@media screen and (max-width: 800px) {
+    .client-opinion{
+      flex-direction: column;
+        .client-image-left{
+            margin-top: 20px;
+            
+        }
+        .client-comment-right{
+            margin-top: 20px;
+        }
+    }
+  }

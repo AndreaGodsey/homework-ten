@@ -1,0 +1,26 @@
+.client-text{
+    font-size: 40px;
+    font-family: Open-Sans;
+    margin-top: 107px ;
+    margin-left: 15% ;
+    width: 100%;
+    .underline2{
+        font-size: 40px;
+        font-family: Open-Sans;
+        text-decoration: underline;
+    }
+
+
+
+    @font-face {
+        font-family: Open-Sans;
+        src: url(../fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+       }
+}
+
+@media screen and (max-width: 800px) {
+    .client-text{
+      max-width: 800px;
+      
+    }
+  }

@@ -1,0 +1,52 @@
+.israelgroup{
+    width: 90%;
+    // background-color: aquamarine;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .israelphotos{
+        // background-color: aqua;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        .firstisraelphoto{
+            background-image: url(../images/firstisraelphoto.png);
+            width: 298px;
+            height: 347px;
+        }
+    }
+
+     .israelphotos2{
+        .secondisraelphoto{
+            background-image: url(../images/secondisraelphoto.png);
+            width: 298px;
+            height: 347px;
+        }
+    }
+
+    .israelphotos3{
+         .thirdisraelphoto{
+             background-image: url(../images/thirdisraelphoto.png);
+            width: 298px;
+            height: 347px;
+        }
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .israelgroup{
+    width: 527px;
+    flex-direction: column;
+    
+    .firstisraelphoto{
+        margin-bottom: 20px;
+    }
+
+    .secondisraelphoto{
+        margin-bottom: 20px;
+    }
+   }
+ }
+

@@ -1,0 +1,58 @@
+.clients2{
+    min-height: 100%;
+    padding: 20px;
+    .client-opinion2{
+        width: 100%;
+        max-width: 800px;
+        margin-left: 15%;
+        display: flex;
+        // align-items: center;
+        margin-right: 19%;
+        .client-image-left1{ 
+    
+            .BoyClient{
+                background-image: url(../images/BoyClient.jpg);
+                width: 260px ;
+                height: 150px;
+                
+            }
+        }
+    
+        .client-comment-right1{
+            width:50%;
+            font-size: 16px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-style: italic;
+            padding-left: 20px;
+    
+            .name2{
+                margin-top: 10px;
+                margin-left: 300px;
+                width: 175px;
+                font-size: 20px;
+                font-family: Open-Sans;
+                color: #79ADDC;}
+    
+                @font-face {
+                    font-family: Open-Sans;
+                    src: url(../fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+                   
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .client-opinion2{
+      max-width: 800px;
+      flex-direction: column;
+      display: flex;
+        .client-image-left1{
+           margin-top: 20px;
+        }
+        .client-comment-right1{
+            margin-top: 20px;
+           
+        }
+    }
+  }

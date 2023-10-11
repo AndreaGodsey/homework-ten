@@ -1,0 +1,51 @@
+.canadagroup{
+    width: 90%;
+    // background-color: aquamarine;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .canadaphotos{
+        // background-color: aqua;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        .firstcanadaphoto{
+            background-image: url(../images/firstcanadaphoto.png);
+            width: 298px;
+            height: 347px;
+        }
+    }
+
+     .canadaphotos2{
+        .secondcanadaphoto{
+            background-image: url(../images/secondcanadaphoto.png);
+            width: 298px;
+            height: 347px;
+        }
+    }
+
+    .canadaphotos3{
+         .thirdcanadaphoto{
+             background-image: url(../images/thirdcanadaphoto.png);
+            width: 298px;
+            height: 347px;
+        }
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .canadagroup{
+    width: 527px;
+    flex-direction: column;
+    
+    .firstcanadaphoto{
+        margin-bottom: 20px;
+    }
+
+    .secondcanadaphoto{
+        margin-bottom: 20px;
+    }
+   }
+ }

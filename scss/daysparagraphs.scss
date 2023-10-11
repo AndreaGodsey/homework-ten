@@ -1,0 +1,99 @@
+.daysparagraphs{
+    .day1{
+        .day1title{
+            font-size: 60px;
+            color: black;
+            width: 100%;
+            margin-left: 10%;
+            margin-top: 5%;
+            font-family: Open-Sans-Italic-Condensed;
+
+            .underline{
+                font-size: 60px;
+                color: black;
+                font-family: Open-Sans-Italic-Condensed;
+                text-decoration: underline;
+            }
+            @font-face {
+                font-family: Open-Sans-Italic-Condensed;
+                src: url(.././fonts/Inclusive_Sans/Open_Sans/OpenSans_SemiCondensed-Italic.ttf);
+            }
+        }
+    .day1paragraph{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 16px;
+        margin-left: 10%;
+        margin-top: 3%;
+        width: 82%;
+    }}
+.day2{
+    .day2title{
+        font-size: 60px;
+            color: black;
+            width: 100%;
+            margin-left: 10%;
+            margin-top: 5%;
+            font-family: Open-Sans-Italic-Condensed;
+
+            .underline2{
+                font-size: 60px;
+                color: black;
+                font-family: Open-Sans-Italic-Condensed;
+                text-decoration: underline;
+            }
+            @font-face {
+                font-family: Open-Sans-Italic-Condensed;
+                src: url(../fonts/Open_Sans/OpenSans_SemiCondensed-Italic.ttf);
+            }
+        }
+
+    .day2paragraph{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 16px;
+        margin-left: 10%;
+        margin-top: 3%;
+        width: 82%;
+    }}
+    .day3{
+        .day3title{
+            font-size: 60px;
+                color: black;
+                width: 100%;
+                margin-left: 10%;
+                margin-top: 5%;
+                font-family: Open-Sans-Italic-Condensed;
+    
+                .underline3{
+                    font-size: 60px;
+                    color: black;
+                    font-family: Open-Sans-Italic-Condensed;
+                    text-decoration: underline;
+                }
+                @font-face {
+                    font-family: Open-Sans-Italic-Condensed;
+                    src: url(../fonts/Open_Sans/OpenSans_SemiCondensed-Italic.ttf);
+                }
+            }
+    
+        .day3paragraph{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 16px;
+            margin-left: 10%;
+            margin-top: 3%;
+            width: 82%;
+        }}}
+
+        @media screen and (max-width: 800px) {
+            .daysparagraphs {
+                flex-direction: column;
+                max-width: 800px;
+                
+            }
+          }
+        
+          @media screen and (max-width: 640px) {
+            .daysparagraphs {
+                flex-direction: column;
+                max-width: 640px;
+            }
+          }

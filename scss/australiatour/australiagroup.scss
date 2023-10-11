@@ -1,0 +1,52 @@
+.australiagroup{
+    width: 90%;
+    // background-color: aquamarine;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .australiaphotos{
+        // background-color: aqua;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        .firstaustraliaphoto{
+            background-image: url(../images/firstaustraliaphoto.png);
+            width: 298px;
+            height: 347px;
+        }
+    }
+
+     .australiaphotos2{
+        .secondaustraliaphoto{
+            background-image: url(../images/secondaustraliaphoto.png);
+            width: 298px;
+            height: 347px;
+        }
+    }
+
+    .australiaphotos3{
+         .thirdaustraliaphoto{
+             background-image: url(../images/thirdaustraliaphoto.png);
+            width: 298px;
+            height: 347px;
+        }
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .australiagroup{
+    width: 527px;
+    flex-direction: column;
+    
+    .firstaustraliaphoto{
+        margin-bottom: 20px;
+    }
+
+    .secondaustraliaphoto{
+        margin-bottom: 20px;
+    }
+   }
+ }
+

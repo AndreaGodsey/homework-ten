@@ -1,0 +1,52 @@
+.usagroup{
+    width: 90%;
+    // background-color: aquamarine;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .usaphotos{
+        // background-color: aqua;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        .firstusaphoto{
+            background-image: url(../images/firstusaphoto.png);
+            width: 298px;
+            height: 347px;
+        }
+    }
+
+     .usaphotos2{
+        .secondusaphoto{
+            background-image: url(../images/secondusaphoto.png);
+            width: 298px;
+            height: 347px;
+        }
+    }
+
+    .usaphotos3{
+         .thirdusaphoto{
+             background-image: url(../images/thirdusaphoto.png);
+            width: 298px;
+            height: 347px;
+        }
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .usagroup{
+    width: 527px;
+    flex-direction: column;
+    
+    .firstusaphoto{
+        margin-bottom: 20px;
+    }
+
+    .secondusaphoto{
+        margin-bottom: 20px;
+    }
+   }
+ }
+

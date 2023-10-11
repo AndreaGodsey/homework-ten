@@ -1,0 +1,454 @@
+.home{
+    .hero{
+        height: 400px;
+        
+    .Airplane{
+        background-image: url(../images/Airplane.png);
+        width: 1280px;
+        height: 500px;
+    
+        
+
+    .callout1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+    .travelflytitle{
+        font-family: Inclusive-Sans-Italic;
+        font-style: normal;
+        font-size: 60px;
+        color: white;
+        margin-top: 140px;
+        text-align: center;
+        
+        .para1{
+            font-size: 20px;
+            width: 500px;
+            height: 46px;
+            text-align: center;
+            margin-top: 30px;
+            font-family: Inclusive-Sans-Italic;
+
+        @font-face {
+            font-family: Inclusive-Sans-Italic;
+            src: url(../fonts/Inclusive_Sans/InclusiveSans-Italic.ttf);
+        }
+        }
+
+        @font-face {
+            font-family: Inclusive-Sans;
+            src: url(../fonts/Inclusive_Sans/InclusiveSans-Regular.ttf);
+
+        }
+    }
+    .learn-more{
+        padding: 5px 15px; 
+        background-color: #79ADDC;
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        width: 121px;
+        height: 35px;
+        margin-right: 10px;
+        margin-top: 50px;
+        text-align: center;
+        z-index: 99;
+    } }
+    }
+
+    
+
+   
+
+    }
+    .promo-info{
+        min-height: 304px;
+        // background-color: cyan;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        .WomanWithCamera{
+            background-image: url(../images/WomanWithCamera.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 236px;
+            height: 304px;
+
+        .callout2{
+            color: white;
+            font-size: 45px;
+            text-align: center;
+            font-family: Inclusive-Sans-Italic;
+            margin-top: 48px;
+
+        .price1{
+            font-size: 30px;
+            font-family: Open-Sans;
+            margin-top: 4px;
+          
+        }
+            
+        @font-face {
+            font-family: Inclusive-Sans;
+            src: url(../fonts/Inclusive_Sans/InclusiveSans-Regular.ttf);
+        }
+
+        @font-face {
+            font-family: Open-Sans;
+            src: url(../../fonts/Inclusive_Sans/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+        }
+        }
+        .firstButton{
+            width: 133px;
+            height: 40px;
+            padding: 11px 21px;
+            background-color: #79ADDC;
+            border-radius: 20px;
+            border: none;
+            font-size: 15px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: white;
+            margin-top: 50px;
+        }
+        }
+
+        .ManOnLake{
+            background-image: url(../images/ManOnLake.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 236px;
+            height: 304px;
+
+        .callout3{
+            color: white;
+            font-size: 45px;
+            text-align: center;
+            font-family: Inclusive-Sans-Italic;
+            margin-top: 50px;
+
+            .price2{
+                font-size: 30px;
+                font-family: Open-Sans-Italic-Condensed;
+            }
+
+        @font-face {
+            font-family: Inclusive-Sans;
+            src: url(../fonts/Inclusive_Sans/InclusiveSans-Regular.ttf);
+        }
+        @font-face {
+            font-family: Open-Sans-Italic-Condensed;
+            src: url(../fonts/Inclusive_Sans/Open_Sans/OpenSans_SemiCondensed-Italic.ttf);
+        }
+        
+        }
+        .secondButton{
+            width: 133px;
+            height: 40px;
+            padding: 11px 21px;
+            background-color: #79ADDC;
+            border-radius: 20px;
+            border: none;
+            font-size: 15px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: white;
+            margin-top: 48px;
+        }
+        }
+
+        .ManOnBeach{
+            background-image: url(../images/ManOnBeach.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 236px;
+            height: 304px;
+
+        .callout4{
+            color: white;
+            font-size: 40px;
+            text-align: center;
+            font-family: Inclusive-Sans-Italic;
+            margin-top: 56px;
+            
+            
+            .price3{
+                font-size: 30px;
+                margin-top: 4px;
+                font-family: Open-Sans-Italic-Condensed;
+            }
+
+        @font-face {
+            font-family: Inclusive-Sans;
+            src: url(../fonts/Inclusive_Sans/InclusiveSans-Regular.ttf);
+        }
+
+        
+        }
+        .thirdButton{
+            width: 133px;
+            height: 40px;
+            padding: 11px 21px;
+            background-color: #79ADDC;
+            border-radius: 20px;
+            border: none;
+            font-size: 15px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: white;
+            margin-top: 43px;
+        }
+         }
+    }
+    .booking{
+        min-height: 800px;
+        // background-color: darkcyan;
+        padding: 50px;
+
+    .top-form{
+        display: flex;
+        justify-content: space-evenly;
+       align-items: center;
+       margin-top: 32px;
+      
+
+       .name-form{
+        height: 50px;
+        width: 344px;
+        border: 1px solid #79ADDC;
+        margin: 0 auto;
+        font-size: 18px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       }
+
+       .email-form{
+        height: 50px;
+        width: 344px;
+        border: 1px solid #79ADDC;
+        margin: 0 auto;
+        font-size: 18px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       }
+    }
+    .bottom-form{
+        display: flex;
+        justify-content: space-evenly;
+       align-items: center;
+       margin-top: 20px;
+       margin-bottom: 20px;
+      
+
+       .country-form{
+        height: 50px;
+        width: 344px;
+        border: 1px solid #79ADDC;
+        margin: 0 auto;
+        font-size: 18px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       }
+
+       .hotel-form{
+        height: 50px;
+        width: 344px;
+        border: 1px solid #79ADDC;
+       margin: 0 auto;
+       font-size: 18px;
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       }
+    }
+        .booking-wrapper{
+            max-width: 818px;
+            margin: 0 auto;
+            // background-color: deeppink;
+        
+        .booking-title{
+            font-size: 60px;
+            font-style: italic;
+            font-weight: bold;
+            font-family:Inclusive-Sans-Italic ;
+
+        @font-face {
+            font-family: Inclusive-Sans-Italic;
+            src: url(../fonts/Inclusive_Sans/InclusiveSans-Italic.ttf);
+        }
+
+        }
+            
+        .long-input{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            input{
+                width: 80%;
+                height: 50px;
+                font-size: 18px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                border: 1px solid #79ADDC;
+                color: #000;
+            }
+
+            .title1{
+                color: black;
+                font-size: 18px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+            }
+        }
+        .long-input2{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            input{
+                width: 80%;
+                height: 50px;
+                margin-top: 20px;
+                font-size: 18px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                border: 1px solid #79ADDC;
+            }
+        .title2{
+            color: black;
+                font-size: 18px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+        }
+        }
+
+        .age-boxes{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            margin-top: 20px;
+
+            
+            
+            .adult{
+                .adulta{
+                    color: black;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    font-size: 18px;
+                    }
+                    input{
+                        width: 103px;
+                        height: 58px;
+                        font-size: 18px;
+                        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                        border: 1px solid #79ADDC;
+                    }
+            }
+            
+            .children{
+                .childrena{
+                    color: black;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    font-size: 18px;}
+
+                    input{
+                        width: 103px;
+                        height: 58px;
+                        font-size: 18px;
+                        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                        border: 1px solid #79ADDC;
+
+                    }
+
+                    
+            }
+            
+            .rooms{
+                .roomsa{
+                    color: black;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    font-size: 18px;
+                }
+
+                    input{
+                        width: 103px;
+                        height: 58px;
+                        font-size: 18px;
+                        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                        border: 1px solid #79ADDC;
+                    }
+            }
+            
+        }
+
+        .message-box{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+          
+            input{
+                width: 818px;
+                height: 192px;
+                font-size: 18px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                border: 1px solid #79ADDC;
+            }
+        }
+    .booking-submit{
+    background-color: #79ADDC;
+    padding: 11px 21px;
+    border-radius: 20px;
+    color: #fff;
+    border: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    width: 100%;
+    margin-top: 37px; 
+       }
+        }
+        
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .promo-info {
+      flex-direction: column;
+
+      .WomanWithCamera{
+        margin-bottom: 20px;
+      }
+
+      .ManOnLake{
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .home {
+    .hero{
+        .Airplane{
+            max-width: 800px;
+           }
+
+           .learn-more{
+           
+           }
+        }
+
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .booking-wrapper {
+       flex-direction: column;
+      .top-form{
+        flex-direction: column;
+        
+      }
+      .bottom-form{
+        flex-direction: column;
+      }
+      
+      .booking-submit{
+        width: 800px;
+      }
+    }
+  }
+  
+  

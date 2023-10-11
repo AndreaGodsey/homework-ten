@@ -1,0 +1,77 @@
+.containerfive{
+    padding-bottom: 60px;
+    .contactform{
+        display: flex;
+        justify-content: space-between;
+        min-height: 560px;
+        width: 70%;
+        margin-left: 15%;
+        background-color: whitesmoke;
+        .textFields{
+            width: 100%;
+            height: 60px;
+            margin-bottom: 21px;
+            border: none;
+            background-color: white;
+        }
+        .textFieldsMessages{
+            width: 100%;
+            height: 199px;
+            margin-bottom: 21px;
+            border: none;
+            background-color: white;
+        }
+        .map{
+            width: 400px;
+            height: 637px;
+            padding-top: 60px;
+            .mapimage{
+                width: 100%;
+                height: 442px;
+                margin-bottom: 34px;
+                background-image: url(../images/Map.png);
+            }
+
+            .mapaddress{
+                width: 100%;
+                height: 161px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-weight: lighter;
+                font-size: 18px;
+               
+            }
+        }
+    
+        .contactboxes{
+            width: 470px;
+            height: 600px;
+            
+            margin-top: 60px;
+        }
+
+        .sendmessagebutton{
+        font-size: 16px;
+        padding: 20px 20px;
+        background-color: #79ADDC;
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        border: none;
+        width: 35%;
+        text-align: center;
+        margin: 0 auto;
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .containerfive {
+     .contactform{
+        flex-direction: column;
+       .contactboxes{
+       }
+        .sendmessagebutton{
+            width: 35%;
+        }
+     }
+    }
+  }

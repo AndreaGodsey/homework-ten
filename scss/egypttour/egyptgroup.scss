@@ -1,0 +1,52 @@
+.egyptgroup{
+    width: 90%;
+    // background-color: aquamarine;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .egyptphotos{
+        // background-color: aqua;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        .firstegyptphoto{
+            background-image: url(../images/firstegyptphoto.png);
+            width: 298px;
+            height: 347px;
+        }
+    }
+
+     .egyptphotos2{
+        .secondegyptphoto{
+            background-image: url(../images/secondegyptphoto.png);
+            width: 298px;
+            height: 347px;
+        }
+    }
+
+    .egyptphotos3{
+         .thirdegyptphoto{
+             background-image: url(../images/thirdegyptphoto.png);
+            width: 298px;
+            height: 347px;
+        }
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .egyptgroup{
+    width: 527px;
+    flex-direction: column;
+    
+    .firstegyptphoto{
+        margin-bottom: 20px;
+    }
+
+    .secondegyptphoto{
+        margin-bottom: 20px;
+    }
+   }
+ }
+

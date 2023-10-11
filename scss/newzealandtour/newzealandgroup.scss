@@ -1,0 +1,52 @@
+.newzealandgroup{
+    width: 90%;
+    // background-color: aquamarine;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .newzealandphotos{
+        // background-color: aqua;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        .firstnewzealandphoto{
+            background-image: url(../images/firstnewzealandphoto.png);
+            width: 298px;
+            height: 347px;
+        }
+    }
+
+     .newzealandphotos2{
+        .secondnewzealandphoto{
+            background-image: url(../images/secondnewzealandphoto.png);
+            width: 298px;
+            height: 347px;
+        }
+    }
+
+    .newzealandphotos3{
+         .thirdnewzealandphoto{
+             background-image: url(../images/thirdnewzealandphoto.png);
+            width: 298px;
+            height: 347px;
+        }
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .newzealandgroup{
+    width: 527px;
+    flex-direction: column;
+    
+    .firstnewzealandphoto{
+        margin-bottom: 20px;
+    }
+
+    .secondnewzealandphoto{
+        margin-bottom: 20px;
+    }
+   }
+ }
+
